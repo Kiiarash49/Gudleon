@@ -6,47 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gudleon</title>
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
-    <div style="text-align: center;">
-        <img class="logo" src="Images/gudleon-logo.png" alt="7749?">
-    </div>
-
-    <div style="text-align: center;">
-        <a class="lang" href="en-index.html">Change language to english</a>
-    </div>
-
-    <div class="border">
-        <p class="welcome">به سایت گادلیان خوش اومدی</p>
-        <br>
-        <div class="links"">
-            <a class=" register" id="register"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScwU89TiVqxQZIbrJvu60vzt871J2tTFwCBwXYZgd3EK2lc1Q/viewform?usp=sf_link">
-            ثبت نام</a>
-            <br>
-            <a class="about" id="about">درباره گادلیان</a>
+    <main class="animate__animated animate__fadeIn animate__delay-0.5s animate__slow">
+        <div style="text-align: center;">
+            <img class="logo" src="Images/gudleon-logo.png" alt="7749?">
         </div>
-        <br><br>
-    </div>
+    </main>
 
-    <div class="border">
-        <p class="news">اخبار گادلیان</p>
-        <!-- <p style="text-align: center; color: grey;">اخبار جدیدی موجود نیست</p> -->
-        <p class="news-content"> <b>ثبت نام گادلیان شروع شد</b> <br> برای ثبت نام بر روی دکمه "ثبت نام" کلیک کنید <br>
-            <span style="font-family: monospace;"> 2024/August/3 </span>
-        </p>
-        <br>
-    </div>
+    <main class="animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="border">
+            <p class="welcome">به سایت گادلیان خوش اومدی</p>
+            <br>
+            <div class="links">
+                <a class=" register" id="register"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScwU89TiVqxQZIbrJvu60vzt871J2tTFwCBwXYZgd3EK2lc1Q/viewform?usp=sf_link">
+                    ثبت نام</a>
+                <br>
+                <a class="about" id="about">درباره گادلیان</a>
+            </div>
+            <br><br>
+        </div>
+    </main>
 
-    <div class="border">
-        <p class="codes" onclick="codes()"> Sponsored by <br><br> /.\ • /.\ <br> \ / <br> 7749 </p>
-    </div>
+    <main class="animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="border">
+            <p class="news">اخبار گادلیان</p>
+            <!-- <p style="text-align: center; color: grey;">اخبار جدیدی موجود نیست</p> -->
+            <p class="news-content"> <b>ثبت نام گادلیان شروع شد</b> <br> برای ثبت نام بر روی دکمه "ثبت نام" کلیک کنید
+                <br>
+                <span style="font-family: monospace;"> 2024/August/3 </span>
+            </p>
+            <br>
+        </div>
+    </main>
+
+    <main class="animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="border">
+            <p class="codes" id="codes" onclick="codes()"> Sponsored by <br><br> /.\ • /.\ <br> \ / <br> 7749 </p>
+        </div>
+    </main>
 
     <br>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ClientJS/0.2.1/client.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="Script/fa-script.js"></script>

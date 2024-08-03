@@ -12,6 +12,10 @@ body {
     background: -moz-linear-gradient(45deg, hsla(212, 100%, 23%, 1) 0%, hsla(285, 81%, 30%, 1) 100%);
     background: -webkit-linear-gradient(45deg, hsla(212, 100%, 23%, 1) 0%, hsla(285, 81%, 30%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#003673", endColorstr="#6D0F8C", GradientType=1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 div.border {
@@ -31,16 +35,6 @@ img.logo {
     width: 150px;
 }
 
-a.lang {
-    color: grey;
-    text-align: center;
-    transition-duration: 0.3s;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
 a.lang:hover {
     color: white;
 }
@@ -50,6 +44,7 @@ p.welcome {
     font-size: 35px;
     margin: 10px;
     color: white;
+  
 }
 
 div.links {
