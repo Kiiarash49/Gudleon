@@ -7,7 +7,7 @@ document.getElementById("about").addEventListener("click", function () {
         showClass: {
             popup: `
               animate__animated
-              animate__fadeInRight
+              animate__fadeInDown
               animate__faster
             `
           },
