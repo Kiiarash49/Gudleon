@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "yekan";
+    src: url("Yekan.ttf");
+}
+
+body {
+    font-family: "yekan", monospace;
+    background-color: black;
+    user-select: none;
+    background: hsla(212, 100%, 23%, 1);
+    background: linear-gradient(45deg, hsla(212, 100%, 23%, 1) 0%, hsla(285, 81%, 30%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(212, 100%, 23%, 1) 0%, hsla(285, 81%, 30%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(212, 100%, 23%, 1) 0%, hsla(285, 81%, 30%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#003673", endColorstr="#6D0F8C", GradientType=1);
+}
+
+div.border {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px;
+    transition-duration: 0.3s;
+}
+
+img.logo {
+    height: 150px;
+    width: 150px;
+}
+
+a.lang {
+    color: grey;
+    text-align: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.lang:hover {
+    color: white;
+}
+
+p.welcome {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+}
+
+div.links {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a.register,
+a.about {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    a.register,
+    a.about {
+        width: 100%;
+    }
+}
+
+a.register:hover {
+    box-shadow: 0px 0px 15px white;
+    color: black;
+    background-color: white;
+}
+
+a.about:hover {
+    box-shadow: 0px 0px 15px white;
+    color: black;
+    background-color: white;
+}
+
+hr {
+    margin: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: grey;
+}
+
+p.news {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+p.codes {
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
