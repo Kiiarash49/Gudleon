@@ -48,7 +48,6 @@ p.welcome {
     font-size: 35px;
     margin: 10px;
     color: white;
-  
 }
 
 div.links {
@@ -76,7 +75,6 @@ a.about {
 }
 
 @media screen and (max-width: 800px) {
-
     a.register,
     a.about {
         width: 100%;
@@ -109,7 +107,8 @@ p.socials {
     margin: 20px;
 }
 
-img.telegram, img.github {
+img.telegram,
+img.github {
     width: 50px;
     height: 50px;
     background-color: white;
