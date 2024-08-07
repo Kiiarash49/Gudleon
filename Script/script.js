@@ -10,8 +10,40 @@ document.getElementById("about").addEventListener("click", function () {
               animate__fadeInDown
               animate__faster
             `
-          },
-      });
+        },
+    });
+})
+
+document.getElementById("telegram").addEventListener("click", function () {
+    Swal.fire({
+        position: "top-end",
+        title: "در حال حاظر این صفحه در دسترس نیست",
+        showConfirmButton: false,
+        timer: 3000,
+        showClass: {
+            popup: `
+              animate__animated
+              animate__fadeInDown
+              animate__faster
+            `
+        },
+    });
+})
+
+document.getElementById("github").addEventListener("click", function () {
+    Swal.fire({
+        position: "top-end",
+        title: "در حال حاظر این صفحه در دسترس نیست",
+        showConfirmButton: false,
+        timer: 3000,
+        showClass: {
+            popup: `
+              animate__animated
+              animate__fadeInDown
+              animate__faster
+            `
+        },
+    });
 })
 
 document.getElementById("codes").addEventListener("click", function () {
@@ -25,7 +57,7 @@ document.getElementById("codes").addEventListener("click", function () {
 
     if (code === "luna") {
         document.body.style.backgroundColor = "black"
-        document.body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg')"
+        document.body.style.backgroundImage = "url('Images/ihavenoideawheresheis.jpg')"
     }
 
     if (code === "hello world") {
@@ -40,7 +72,7 @@ document.getElementById("codes").addEventListener("click", function () {
                   animate__fadeInDown
                   animate__faster
                 `
-              },
-          });
+            },
+        });
     }
 })

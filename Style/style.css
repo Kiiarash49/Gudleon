@@ -35,6 +35,10 @@ img.logo {
     width: 150px;
 }
 
+p.notification {
+    text-align: center;
+}
+
 a.lang:hover {
     color: white;
 }
@@ -98,21 +102,20 @@ hr {
     border-color: grey;
 }
 
-p.news {
+p.socials {
     font-size: 35px;
     text-align: center;
     color: white;
     margin: 20px;
 }
 
-p.news-content {
-    text-align: center;
-    color: white;
+img.telegram, img.github {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
     margin: 10px;
-    border-style: solid;
-    border-color: white;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 p.codes {
