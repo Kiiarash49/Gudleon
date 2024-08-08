@@ -31,19 +31,7 @@ document.getElementById("telegram").addEventListener("click", function () {
 })
 
 document.getElementById("github").addEventListener("click", function () {
-    Swal.fire({
-        position: "top",
-        title: "در حال حاظر این صفحه در دسترس نیست",
-        showConfirmButton: false,
-        timer: 3000,
-        showClass: {
-            popup: `
-              animate__animated
-              animate__fadeInDown
-              animate__faster
-            `
-        },
-    });
+    window.open("https://github.com/Kiiarash49/Gudleon")
 })
 
 document.getElementById("codes").addEventListener("click", function () {
@@ -110,6 +98,13 @@ document.getElementById("codes").addEventListener("click", function () {
                 `
             },
         });
+    }
+
+    if (code === "nzc0oq==") {
+        $("#notification").text("Nzc0OQ==/Nzc0OQ==.txt")
+        $("#notification").css("color", "white")
+        $("#notification").css("fontFamily", "monospace")
+        $("#notification").css("userSelect", "all")
     }
 
 })
