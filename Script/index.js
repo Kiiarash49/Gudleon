@@ -15,19 +15,20 @@ document.getElementById("about").addEventListener("click", function () {
 })
 
 document.getElementById("telegram").addEventListener("click", function () {
-    Swal.fire({
-        position: "top",
-        title: "در حال حاظر این صفحه در دسترس نیست",
-        showConfirmButton: false,
-        timer: 3000,
-        showClass: {
-            popup: `
-              animate__animated
-              animate__fadeInDown
-              animate__faster
-            `
-        },
-    });
+    // Swal.fire({
+    //     position: "top",
+    //     title: "در حال حاظر این صفحه در دسترس نیست",
+    //     showConfirmButton: false,
+    //     timer: 3000,
+    //     showClass: {
+    //         popup: `
+    //           animate__animated
+    //           animate__fadeInDown
+    //           animate__faster
+    //         `
+    //     },
+    // });
+    window.open("https://t.me/+dt91SeNbyclhODFk")
 })
 
 document.getElementById("github").addEventListener("click", function () {
