@@ -1,4 +1,20 @@
-document.getElementById("about").addEventListener("click", function () {
+// document.getElementById("about").addEventListener("click", function () {
+//     Swal.fire({
+//         position: "top",
+//         title: "در حال حاظر این صفحه در دسترس نیست",
+//         showConfirmButton: false,
+//         timer: 3000,
+//         showClass: {
+//             popup: `
+//               animate__animated
+//               animate__fadeInDown
+//               animate__faster
+//             `
+//         },
+//     });
+// })
+
+document.getElementById("about").addEventListener("click", function() {
     Swal.fire({
         position: "top",
         title: "در حال حاظر این صفحه در دسترس نیست",
@@ -129,19 +145,6 @@ document.getElementById("codes").addEventListener("click", function () {
     }
 
     if (code === "english or spanish" || code === "english or spanish?") {
-        // Swal.fire({
-        //     position: "top",
-        //     title: "Baby you got somthing in your nose!",
-        //     showConfirmButton: false,
-        //     timer: 3000,
-        //     showClass: {
-        //         popup: `
-        //           animate__animated
-        //           animate__fadeInDown
-        //           animate__faster
-        //         `
-        //     },
-        // });
         document.body.style.overflow = "hidden"
     }
 
