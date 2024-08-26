@@ -88,7 +88,23 @@ document.getElementById("codes").addEventListener("click", function () {
     if (code === "7749") {
         Swal.fire({
             position: "top",
-            title: "Hmmm, you'r not allowed to do this action. sorry dude!",
+            title: "Hmmm, you'r not allowed to do this action. sorry buddy!",
+            showConfirmButton: false,
+            timer: 3000,
+            showClass: {
+                popup: `
+                  animate__animated
+                  animate__fadeInDown
+                  animate__faster
+                `
+            },
+        });
+    }
+
+    if (code === "what is 7749?") {
+        Swal.fire({
+            position: "top",
+            title: "Well, it can be anything",
             showConfirmButton: false,
             timer: 3000,
             showClass: {
@@ -106,6 +122,43 @@ document.getElementById("codes").addEventListener("click", function () {
         $("#notification").css("color", "white")
         $("#notification").css("fontFamily", "monospace")
         $("#notification").css("userSelect", "all")
+    }
+
+    if (code === "memory reboot") {
+        window.open("https://youtu.be/wL8DVHuWI7Y?si=GxJ2LPsBmImsxzks")
+    }
+
+    if (code === "english or spanish" || code === "english or spanish?") {
+        // Swal.fire({
+        //     position: "top",
+        //     title: "Baby you got somthing in your nose!",
+        //     showConfirmButton: false,
+        //     timer: 3000,
+        //     showClass: {
+        //         popup: `
+        //           animate__animated
+        //           animate__fadeInDown
+        //           animate__faster
+        //         `
+        //     },
+        // });
+        document.body.style.overflow = "hidden"
+    }
+
+    if (code === "go back in time") {
+        Swal.fire({
+            position: "top",
+            title: "Oh! i think i broke the time machin. just let me fix that thing!",
+            showConfirmButton: false,
+            timer: 3000,
+            showClass: {
+                popup: `
+                  animate__animated
+                  animate__fadeInDown
+                  animate__faster
+                `
+            },
+        });
     }
 
 })
