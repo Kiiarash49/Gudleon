@@ -120,7 +120,7 @@ document.getElementById("codes").addEventListener("click", function () {
     if (code === "what is 7749?") {
         Swal.fire({
             position: "top",
-            title: "Well, it can be anything",
+            title: "Well, it can be anything!",
             showConfirmButton: false,
             timer: 3000,
             showClass: {
